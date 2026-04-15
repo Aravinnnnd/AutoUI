@@ -1,0 +1,4 @@
+websockets>=11.0.0
+pydantic>=1.10.0
+# Optional: add runtime deps as we translate modules (e.g. websocket-client, requests)
+pytest>=7.0.0

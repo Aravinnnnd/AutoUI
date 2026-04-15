@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$pyclass*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+env/
+pip-wheel-metadata/
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OneDrive temporary locks
+~$*
+
+# Local env files
+.env
+env.local
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.local
+.playwright-cli/
+docs/

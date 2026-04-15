@@ -1,0 +1,21 @@
+"""Component catalog data translated from `mcp/data/component-catalog.ts`."""
+COMPONENT_CATALOG = [
+    {"name": "Button/Primary",     "category": "Buttons",    "description": "Primary CTA button with brand color fill and shadow",       "overrides": "label, fill, cornerRadius"},
+    {"name": "Button/Secondary",   "category": "Buttons",    "description": "Secondary button with subtle background",                   "overrides": "label, fill"},
+    {"name": "Button/Outline",     "category": "Buttons",    "description": "Outline button with border only",                           "overrides": "label, borderColor"},
+    {"name": "Button/Ghost",       "category": "Buttons",    "description": "Ghost button — text only, no background",                   "overrides": "label, color"},
+    {"name": "Button/Destructive", "category": "Buttons",    "description": "Destructive/danger button with red fill",                   "overrides": "label"},
+    {"name": "Input",              "category": "Form",       "description": "Text input field with label",                               "overrides": "label, placeholder"},
+    {"name": "Select",             "category": "Form",       "description": "Dropdown select with label and chevron",                    "overrides": "label, placeholder"},
+    {"name": "Checkbox",           "category": "Form",       "description": "Checkbox with label",                                       "overrides": "label, checked"},
+    {"name": "Switch",             "category": "Form",       "description": "Toggle switch with label",                                  "overrides": "label, on"},
+    {"name": "Card",               "category": "Display",    "description": "Card container with title and description",                 "overrides": "title, description"},
+    {"name": "Avatar",             "category": "Display",    "description": "Circular avatar with initials",                             "overrides": "initials, fill, size"},
+    {"name": "Badge",              "category": "Display",    "description": "Small colored label/tag",                                   "overrides": "text, variant (success/warning/error/info/default)"},
+    {"name": "Divider",            "category": "Display",    "description": "Horizontal line separator",                                 "overrides": "none"},
+    {"name": "Alert",              "category": "Feedback",   "description": "Alert box with title and message",                          "overrides": "title, message, variant (info/success/warning/error)"},
+    {"name": "SidebarItem",        "category": "Navigation", "description": "Sidebar navigation item",                                   "overrides": "label, icon, active"},
+    {"name": "SidebarItem/Active", "category": "Navigation", "description": "Active sidebar navigation item (highlighted)",              "overrides": "label, icon"},
+    {"name": "Tab",                "category": "Navigation", "description": "Tab button (inactive)",                                     "overrides": "label"},
+    {"name": "Tab/Active",         "category": "Navigation", "description": "Active tab button with bottom border",                      "overrides": "label"},
+]
